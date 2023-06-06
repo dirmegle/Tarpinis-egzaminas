@@ -1,0 +1,31 @@
+// Navigation
+
+@media (max-width: 768px) {
+
+    .hero {
+
+        h2 {
+            max-width: 90vw;
+            font-size: 2.5em;
+        }
+
+        form {
+            flex-direction: column;
+            row-gap: 10px;
+            align-items: center;
+            width: 100%;
+        }
+
+        input {
+            width: 90%;
+            margin: 0;
+            height: 55px;
+        }
+        
+        .button {
+            width: 90%;
+            height: 55px;
+        }
+    }
+
+}
