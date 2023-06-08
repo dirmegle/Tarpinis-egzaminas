@@ -142,5 +142,30 @@
 }
 }
 
+// Footer
+
+@media (max-width: 768px) {
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        row-gap: 30px;
+
+        .information {
+            display: flex;
+            flex-direction: column;
+            row-gap: 30px;
+        }
+
+        .links {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+}
+
+
 
 

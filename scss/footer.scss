@@ -7,6 +7,10 @@ footer {
     justify-content: space-between;
     align-items: center;
 
+    .copyright p {
+        color: gray;
+    }
+
     .information {
         display: flex;
         flex-direction: column;
@@ -34,7 +38,6 @@ footer {
             }
     }
 
-
     .socials {
         display: flex;
         flex-direction: row;
@@ -52,3 +55,4 @@ footer {
         }
     }
 }
+
