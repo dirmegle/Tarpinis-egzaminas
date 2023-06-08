@@ -8,6 +8,51 @@ $section: #f8f9fa;
 $textcolor: #595a5b;
 $headlines: #212529;
 
+// Mixin
+
+@mixin button-hover {
+  background-color: transparent;
+  border: 2px solid $accent;
+  color: $accent;
+  background: white;
+}
+
+@mixin horizontal {
+    background: $section;
+    padding: 5% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3vw;
+}
+
+@mixin input {
+  height: 50px;
+  width: 25vw;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.3em;
+  margin-right: 5px;
+  padding-left: 20px;
+}
+
+@mixin overlay {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+@mixin form {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -1,11 +1,5 @@
 .benefits {
-    background: $section;
-    height: 50vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    column-gap: 3vw;
+    @include horizontal;
 
     div {
         min-width: 20vw;

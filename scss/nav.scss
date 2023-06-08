@@ -30,9 +30,7 @@ nav {
       transition: 0.3s;
   
       &:hover {
-        background-color: transparent;
-        border: 2px solid $accent;
-        color: $accent;
+        @include button-hover;
       }
     }
   }
