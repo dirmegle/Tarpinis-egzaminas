@@ -1,4 +1,4 @@
-// Navigation
+// Hero section
 
 @media (max-width: 768px) {
 
@@ -27,5 +27,24 @@
             height: 55px;
         }
     }
+}
 
+// Benefits section
+
+@media (max-width: 768px) {
+
+    .benefits {
+        flex-direction: column;
+        row-gap: 9vh;
+        height: auto;
+        padding: 15vh 0vh;
+
+        div {
+            width: 90vw;
+
+         p {
+            max-width: none;
+        }   
+    }
+}
 }

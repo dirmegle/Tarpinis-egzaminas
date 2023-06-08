@@ -1,0 +1,38 @@
+.benefits {
+    background: $section;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3vw;
+
+    div {
+        min-width: 20vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        i {
+            color: $accent;
+            font-size: 5em;
+        }
+
+        h2 {
+            font-size: 2.1em;
+            color: $headlines;
+            margin-top: 3vh;
+            margin-bottom: 1vh;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: 300;
+            line-height: 1.5em;
+            color: $textcolor;
+            max-width: 20vw;
+        }
+    }
+}
